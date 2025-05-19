@@ -1,0 +1,28 @@
+* {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+}
+
+body {
+  padding: 10px;
+  text-align: center;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.formSection {
+  display: flex;
+  gap: 10px;
+}
+
+input,
+select {
+  width: calc(100% - 5px);
+}
+
+.textArea {
+  width: calc(100% - 5px);
+}
