@@ -1,5 +1,8 @@
 * {
   font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-size: 15pt;
+  border-radius: 10pt;
+  padding: 7px;
 }
 
 body {
@@ -25,4 +28,14 @@ select {
 
 .textArea {
   width: calc(100% - 5px);
+}
+
+button {
+  width: max-content;
+  font-size: 15pt;
+  background-color: rgba(0, 128, 128, 0.498);
+  color: rgb(0, 0, 0);
+  border: 2px solid rgb(0, 0, 0);
+  border-radius: 10pt;
+  align-self: end;
 }
