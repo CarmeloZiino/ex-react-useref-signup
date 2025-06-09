@@ -133,6 +133,7 @@ function App() {
               ref={inputSpecializzazione}
               placeholder="Specializzazione"
             >
+              <option>Seleziona:</option>
               <option value="Full Stack">Full Stack</option>
               <option value="Frontend">Frontend</option>
               <option value="Backend">Backend</option>
